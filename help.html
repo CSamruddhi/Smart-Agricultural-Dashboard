@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <style>
+        header {
+            background-color: rgb(79, 189, 76);
+            color: #000000;
+            padding: 18px;
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #9a3131;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-left: 1.9cm;
+            background-color: rgb(123, 180, 242);
+            color: #000000;
+            padding: 10px;
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(224, 125, 125);
+        }
+    </style>
+</head>
+<body>
+<header><b>Standard Crop Data</b></header>
+<p>
+    According to study and research done by various scientists all over the world, they have given some standard values of required parameters for crop yield.<br>
+    Indian Government launched <i>"Farmer.gov.in"</i> website for detailed information of each crop also it provides various services like provision of seeds and an expert opinion.
+</p>
+<ul style="list-style-type:disc;">
+    <li>1 inch rainfall = 25.4 mm</li> <br>
+    <li>1% humidity = air is at 1 percent of its water-holding capacity for the present temperature.</li>
+</ul>
+<table>
+    <thead>
+        <tr>
+            <th>Sr. No</th>
+            <th>Crop</th>
+            <th>Nitrogen [kg per Hectare]</th>
+            <th>Phosphorus [kg per Hectare]</th>
+            <th>Potassium [kg per Hectare]</th>
+            <th>Rainfall [inches]</th>
+            <th>pH</th>
+            <th>Humidity [%]</th>
+            <th>Temperature [�C]</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+    <tr>
+        <td>1</td>
+        <td>Rice</td>
+        <td>60-99</td>
+        <td>35-60</td>
+        <td>35-45</td>
+        <td>182.5616319-298.5601175</td>
+        <td>5.005306977-7.868474653</td>
+        <td>80.12267476-84.96907151</td>
+        <td>20.0454142-26.92995077</td>
+    </tr>
+    
+
+    <tr>
+        <td>2</td>
+        <td>Maize</td>
+        <td>60-100</td>
+        <td>35-60</td>
+        <td>15-25</td>
+        <td>60.65171481-109.7515385</td>
+        <td>5.513697923-6.995843776</td>
+        <td>55.28220433-74.82913698</td>
+        <td>18.04185513-26.54986394</td>
+    </tr>
+    
+
+    <tr>
+        <td>3</td>
+        <td>ChickPea</td>
+        <td>20-60</td>
+        <td>55-80</td>
+        <td>75-85</td>
+        <td>65.11365631-94.78189594</td>
+        <td>5.988992796-8.868741443</td>
+        <td>14.25803981-19.96978871</td>
+        <td>17.02498456-20.99502153</td>
+    </tr>
+    
+
+    <tr>
+        <td>4</td>
+        <td>KidneyBeans</td>
+        <td>0-40</td>
+        <td>55-80</td>
+        <td>15-25</td>
+        <td>60.27552528-149.7441028</td>
+        <td>5.502999119-5.99812453</td>
+        <td>18.09224048-24.96969858</td>
+        <td>15.33042636-24.92360104</td>
+    </tr>
+    
+
+    <tr>
+        <td>5</td>
+        <td>PigeonPeas</td>
+        <td>0-40</td>
+        <td>55-80</td>
+        <td>15-25</td>
+        <td>90.05422663-198.8298806</td>
+        <td>4.548202098-7.445444883</td>
+        <td>30.40046769-69.69141302</td>
+        <td>18.31910448-36.97794384</td>
+    </tr>
+    
+
+    <tr>
+        <td>6</td>
+        <td>MothBeans</td>
+        <td>0-40</td>
+        <td>35-60</td>
+        <td>15-25</td>
+        <td>30.92014047-74.44330654</td>
+        <td>3.504752314-9.93509073</td>
+        <td>40.00933429-64.95585424</td>
+        <td>24.01825377-31.99928579</td>
+    </tr>
+    
+
+    <tr>
+        <td>7</td>
+        <td>MungBean</td>
+        <td>0-40</td>
+        <td>35-60</td>
+        <td>15-25</td>
+        <td>36.12042927-59.87232071</td>
+        <td>6.218923893-7.199495368</td>
+        <td>80.03499648-89.99615558</td>
+        <td>27.01470397-29.9145443</td>
+    </tr>
+    
+
+    <tr>
+        <td>8</td>
+        <td>Blackgram</td>
+        <td>20-60</td>
+        <td>55-80</td>
+        <td>15-25</td>
+        <td>60.41790253-74.91559514</td>
+        <td>6.500144962-7.775306272</td>
+        <td>60.06534859-69.96100028</td>
+        <td>25.09737391-34.9466155</td>
+    </tr>
+    
+
+    <tr>
+        <td>9</td>
+        <td>Lentil</td>
+        <td>0-40</td>
+        <td>55-80</td>
+        <td>15-25</td>
+        <td>35.03484812-54.9393771</td>
+        <td>5.91645379-7.841496029</td>
+        <td>60.09116626-69.92375891</td>
+        <td>18.06486101-29.94413861</td>
+    </tr>
+    
+
+    <tr>
+        <td>10</td>
+        <td>Pomegranate</td>
+        <td>0-40</td>
+        <td>5-30</td>
+        <td>35-45</td>
+        <td>102.5184759-112.4750941</td>
+        <td>5.561851831-7.199504273</td>
+        <td>85.12912161-94.99897537</td>
+        <td>18.07132963-24.96273236</td>
+    </tr>
+    
+
+    <tr>
+        <td>11</td>
+        <td>Banana</td>
+        <td>80-120</td>
+        <td>70-95</td>
+        <td>45-55</td>
+        <td>90.10978128-119.84797</td>
+        <td>5.505393833-6.490074429</td>
+        <td>75.03193255-84.97849241</td>
+        <td>25.01018457-29.90888522</td>
+    </tr>
+    
+
+    <tr>
+        <td>12</td>
+        <td>Mango</td>
+        <td>0-40</td>
+        <td>15-40</td>
+        <td>25-35</td>
+        <td>89.29147581-100.8124659</td>
+        <td>4.507523551-6.967417766</td>
+        <td>45.02236377-54.9640534</td>
+        <td>27.00315545-35.99009679</td>
+    </tr>
+    
+
+    <tr>
+        <td>13</td>
+        <td>Grapes</td>
+        <td>0-40</td>
+        <td>120-145</td>
+        <td>195-205</td>
+        <td>65.01095312-74.91506217</td>
+        <td>5.510924849-6.499604931</td>
+        <td>80.01639435-83.98351748</td>
+        <td>8.825674745-41.94865736</td>
+    </tr>
+    
+
+    <tr>
+        <td>14</td>
+        <td>Watermelon</td>
+        <td>80-120</td>
+        <td>5-30</td>
+        <td>45-55</td>
+        <td>40.12650421-59.75980023</td>
+        <td>6.000975617-6.956508826</td>
+        <td>80.02621335-89.98405233</td>
+        <td>24.04355803-26.98603693</td>
+    </tr>
+    
+
+    <tr>
+        <td>15</td>
+        <td>Muskmelon</td>
+        <td>80-120</td>
+        <td>5-30</td>
+        <td>45-55</td>
+        <td>20.21126747-29.86681385</td>
+        <td>6.002927293-6.781050373</td>
+        <td>90.01506395-94.96218673</td>
+        <td>27.02415146-29.94349168</td>
+    </tr>
+    
+
+    <tr>
+        <td>16</td>
+        <td>Apple</td>
+        <td>0-40</td>
+        <td>120-145</td>
+        <td>195-205</td>
+        <td>100.1173443-124.9831618</td>
+        <td>5.514253142-6.499226821</td>
+        <td>90.02575116-94.92048112</td>
+        <td>21.0365275-23.99686172</td>
+    </tr>
+    
+
+    <tr>
+        <td>17</td>
+        <td>Orange</td>
+        <td>0-40</td>
+        <td>5-30</td>
+        <td>5-15</td>
+        <td>100.1737964-119.6946577</td>
+        <td>6.010391864-7.995848977</td>
+        <td>90.00621688-94.96419851</td>
+        <td>10.01081312-34.90665289</td>
+    </tr>
+    
+
+    <tr>
+        <td>18</td>
+        <td>Papaya</td>
+        <td>31-70</td>
+        <td>46-70</td>
+        <td>45-55</td>
+        <td>40.35153141-248.8592986</td>
+        <td>6.501521192-6.993473247</td>
+        <td>90.03863107-94.94482086</td>
+        <td>23.0124018-43.67549305</td>
+    </tr>
+    
+
+    <tr>
+        <td>19</td>
+        <td>Coconut</td>
+        <td>0-40</td>
+        <td>5-30</td>
+        <td>25-35</td>
+        <td>131.0900076-225.6323656</td>
+        <td>5.50158009-6.470465614</td>
+        <td>90.01734526-99.98187601</td>
+        <td>25.00872392-29.8690834</td>
+    </tr>
+    
+
+    <tr>
+        <td>20</td>
+        <td>Cotton</td>
+        <td>100-140</td>
+        <td>35-60</td>
+        <td>15-25</td>
+        <td>60.65381719-99.93100821</td>
+        <td>5.801047545-7.994679507</td>
+        <td>75.00539324-84.87668973</td>
+        <td>22.00085141-25.99237426</td>
+    </tr>
+    
+
+    <tr>
+        <td>21</td>
+        <td>Jute</td>
+        <td>60-100</td>
+        <td>35-60</td>
+        <td>35-45</td>
+        <td>150.2355238-199.8362913</td>
+        <td>6.002524871-7.488014404</td>
+        <td>70.88259632-89.89106506</td>
+        <td>23.09433785-26.98582182</td>
+    </tr>
+    
+
+    <tr>
+        <td>22</td>
+        <td>Coffee</td>
+        <td>80-120</td>
+        <td>15-40</td>
+        <td>25-35</td>
+        <td>115.1564012-199.4735636</td>
+        <td>6.020947179-7.493191968</td>
+        <td>50.04557009-69.94807345</td>
+        <td>23.05951896-27.92374437</td>
+    </tr>
+    
+    </tbody>
+</table><br>
+<a href="{ url_for('main') }"><button>BACK</button></a>
+<footer>
+    <p>&copy; 2023 Agricultural Dashboard Project</p>
+</footer>
+</body>
+</html>
